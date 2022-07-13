@@ -448,6 +448,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_next_level","path":"objects/obj_next_level/obj_next_level.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":4992.0,"y":2816.0,"resourceVersion":"1.0","name":"inst_6F1EF1E7","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_next_level","path":"objects/obj_next_level/obj_next_level.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":4992.0,"y":2880.0,"resourceVersion":"1.0","name":"inst_667F4BF","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_next_level_key","path":"objects/obj_next_level_key/obj_next_level_key.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":4704.0,"y":208.0,"resourceVersion":"1.0","name":"inst_5E9414AD","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"Coin","path":"objects/Coin/Coin.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1840.0,"y":1264.0,"resourceVersion":"1.0","name":"inst_4DC9A284","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":-11200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"visible":true,"depth":-11100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[
         {"assets":[
@@ -1149,6 +1150,7 @@
     {"name":"inst_6F1EF1E7","path":"rooms/rm_level_1/rm_level_1.yy",},
     {"name":"inst_667F4BF","path":"rooms/rm_level_1/rm_level_1.yy",},
     {"name":"inst_5E9414AD","path":"rooms/rm_level_1/rm_level_1.yy",},
+    {"name":"inst_4DC9A284","path":"rooms/rm_level_1/rm_level_1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
