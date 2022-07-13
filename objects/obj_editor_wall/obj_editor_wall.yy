@@ -3,7 +3,7 @@
     "name": "spr_editor_wall",
     "path": "sprites/spr_editor_wall/spr_editor_wall.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": false,
   "managed": true,
   "spriteMaskId": null,
