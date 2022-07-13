@@ -29,3 +29,9 @@ hearts = max_hearts;
 /// @DnDHash : 2491AAE4
 /// @DnDArgument : "var" "key"
 key = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 6702A4CF
+/// @DnDArgument : "var" "input_direction"
+input_direction = 0;

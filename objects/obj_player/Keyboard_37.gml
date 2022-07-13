@@ -12,6 +12,7 @@ x += -move_speed;
 /// @DnDComment : Walk to side sprite
 /// @DnDArgument : "imageind_relative" "1"
 /// @DnDArgument : "spriteind" "spr_player_walk_side"
+/// @DnDSaveInfo : "spriteind" "spr_player_walk_side"
 sprite_index = spr_player_walk_side;
 image_index += 0;
 
@@ -22,3 +23,10 @@ image_index += 0;
 /// @DnDArgument : "xscale" "-1"
 image_xscale = -1;
 image_yscale = 1;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 49B88490
+/// @DnDArgument : "expr" "180"
+/// @DnDArgument : "var" "input_direction"
+input_direction = 180;

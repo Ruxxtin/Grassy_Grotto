@@ -12,6 +12,7 @@ x += move_speed;
 /// @DnDComment : Walk to side sprite
 /// @DnDArgument : "imageind_relative" "1"
 /// @DnDArgument : "spriteind" "spr_player_walk_side"
+/// @DnDSaveInfo : "spriteind" "spr_player_walk_side"
 sprite_index = spr_player_walk_side;
 image_index += 0;
 
@@ -21,3 +22,9 @@ image_index += 0;
 /// @DnDComment : Reset the horizontal scale$(13_10)to 1 so the player faces$(13_10)right again
 image_xscale = 1;
 image_yscale = 1;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 6236A2EE
+/// @DnDArgument : "var" "input_direction"
+input_direction = 0;

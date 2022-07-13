@@ -13,5 +13,13 @@ y += -move_speed;
 /// @DnDComment : Walk up sprite
 /// @DnDArgument : "imageind_relative" "1"
 /// @DnDArgument : "spriteind" "spr_player_walk_up"
+/// @DnDSaveInfo : "spriteind" "spr_player_walk_up"
 sprite_index = spr_player_walk_up;
 image_index += 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 4B5A9A35
+/// @DnDArgument : "expr" "90"
+/// @DnDArgument : "var" "input_direction"
+input_direction = 90;
