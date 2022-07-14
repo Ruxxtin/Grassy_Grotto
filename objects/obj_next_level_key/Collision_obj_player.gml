@@ -10,6 +10,6 @@ instance_destroy();
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "type" "7"
 /// @DnDArgument : "where" "1"
-/// @DnDArgument : "size" "1"
+/// @DnDArgument : "size" "2"
 /// @DnDArgument : "color" "$FF999999"
-effect_create_above(7, x + 0, y + 0, 1, $FF999999 & $ffffff);
+effect_create_above(7, x + 0, y + 0, 2, $FF999999 & $ffffff);

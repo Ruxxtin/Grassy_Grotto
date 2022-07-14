@@ -1,3 +1,10 @@
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1
+/// @DnDHash : 506F4C8D
+/// @DnDArgument : "soundid" "snd_coin"
+/// @DnDSaveInfo : "soundid" "snd_coin"
+audio_play_sound(snd_coin, 0, 0);
+
 /// @DnDAction : YoYo Games.Instances.Destroy_Instance
 /// @DnDVersion : 1
 /// @DnDHash : 08D88381

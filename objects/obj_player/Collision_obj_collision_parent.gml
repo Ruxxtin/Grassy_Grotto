@@ -6,6 +6,7 @@
 /// @DnDArgument : "y" "y"
 /// @DnDArgument : "object" "obj_collision_parent"
 /// @DnDArgument : "not" "1"
+/// @DnDSaveInfo : "object" "obj_collision_parent"
 var l4FA8D836_0 = instance_place(xprevious, y, obj_collision_parent);
 if (!(l4FA8D836_0 > 0))
 {
@@ -34,6 +35,7 @@ else
 	/// @DnDArgument : "y" "yprevious"
 	/// @DnDArgument : "object" "obj_collision_parent"
 	/// @DnDArgument : "not" "1"
+	/// @DnDSaveInfo : "object" "obj_collision_parent"
 	var l4179BEC2_0 = instance_place(x, yprevious, obj_collision_parent);
 	if (!(l4179BEC2_0 > 0))
 	{
