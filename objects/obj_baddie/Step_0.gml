@@ -2,17 +2,18 @@
 /// @DnDVersion : 1.1
 /// @DnDHash : 563A63E1
 /// @DnDComment : Check if the player is colliding with an elliptical$(13_10)area surrounding the baddie$(13_10)$(13_10)Its size is 100 pixels around the baddie (using$(13_10)the relative option)
-/// @DnDArgument : "x1" "-100"
+/// @DnDArgument : "x1" "-50"
 /// @DnDArgument : "x1_relative" "1"
-/// @DnDArgument : "y1" "-100"
+/// @DnDArgument : "y1" "-50"
 /// @DnDArgument : "y1_relative" "1"
-/// @DnDArgument : "x2" "100"
+/// @DnDArgument : "x2" "50"
 /// @DnDArgument : "x2_relative" "1"
-/// @DnDArgument : "y2" "100"
+/// @DnDArgument : "y2" "50"
 /// @DnDArgument : "y2_relative" "1"
 /// @DnDArgument : "obj" "obj_player"
 /// @DnDArgument : "shape" "2"
-var l563A63E1_0 = collision_ellipse(x + -100, y + -100, x + 100, y + 100, obj_player, true, 1);
+/// @DnDSaveInfo : "obj" "obj_player"
+var l563A63E1_0 = collision_ellipse(x + -50, y + -50, x + 50, y + 50, obj_player, true, 1);
 if((l563A63E1_0))
 {
 	/// @DnDAction : YoYo Games.Common.If_Variable
@@ -75,6 +76,7 @@ if((l563A63E1_0))
 			/// @DnDComment : Switch to the 'side attack'$(13_10)sprite
 			/// @DnDParent : 59B43C8A
 			/// @DnDArgument : "spriteind" "spr_baddie_attack_side"
+			/// @DnDSaveInfo : "spriteind" "spr_baddie_attack_side"
 			sprite_index = spr_baddie_attack_side;
 			image_index = 0;
 		
@@ -111,6 +113,7 @@ if((l563A63E1_0))
 				/// @DnDComment : Switch to the 'side attack'$(13_10)sprite
 				/// @DnDParent : 54A9D79A
 				/// @DnDArgument : "spriteind" "spr_baddie_attack_side"
+				/// @DnDSaveInfo : "spriteind" "spr_baddie_attack_side"
 				sprite_index = spr_baddie_attack_side;
 				image_index = 0;
 			
@@ -146,6 +149,7 @@ if((l563A63E1_0))
 					/// @DnDComment : Switch to the 'up attack'$(13_10)sprite
 					/// @DnDParent : 4EE25C5F
 					/// @DnDArgument : "spriteind" "spr_baddie_attack_up"
+					/// @DnDSaveInfo : "spriteind" "spr_baddie_attack_up"
 					sprite_index = spr_baddie_attack_up;
 					image_index = 0;
 				}
@@ -163,6 +167,7 @@ if((l563A63E1_0))
 					/// @DnDComment : Switch to the 'down attack'$(13_10)sprite as that's the only$(13_10)direction left
 					/// @DnDParent : 0DD3BCC9
 					/// @DnDArgument : "spriteind" "spr_baddie_attack_down"
+					/// @DnDSaveInfo : "spriteind" "spr_baddie_attack_down"
 					sprite_index = spr_baddie_attack_down;
 					image_index = 0;
 				}
